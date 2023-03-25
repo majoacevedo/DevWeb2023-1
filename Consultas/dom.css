@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body
+{
+    position: relative;
+    width: 1024px;
+    height: 1440px;
+    
+    background: linear-gradient(90deg, #FF4B1F 0%, #1FDDFF 100%);
+}
+
+*{
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+h1
+{
+  
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+}
+
+ p{
+text-align: justify;
+ }
+
+
+

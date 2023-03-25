@@ -1,0 +1,97 @@
+/* Fuente personalizada */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/* Estilo para el encabezado */
+
+body
+{
+
+  
+    background: linear-gradient(rgba(138,35,135,1), rgba(233,64,87,1));
+              
+}
+
+header {
+  background-color: #f6d7dc;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6d6875;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+header p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Estilo para las secciones */
+section {
+  margin-top: 50px;
+}
+
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+section li {
+  margin-bottom: 30px;
+  
+}
+
+section li h3 {
+  font-size: 20px;
+  color: #6d6875;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+section li p {
+  font-size: 16px;
+  color: #6d6875;
+  margin: 5px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo para la imagen de perfil */
+header img {
+  border-radius: 50%;
+  border: 5px solid #f6d7dc;
+  margin-bottom: 20px;
+  max-width: 150px;
+}
+/*Habilidades*/
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #f6d7dc;
+  color: #6d6875;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+a {
+  color: #f6d7dc;
+  text-decoration: none;
+  border-bottom: 2px solid #f6d7dc;
+  transition: border-bottom 0.2s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+}

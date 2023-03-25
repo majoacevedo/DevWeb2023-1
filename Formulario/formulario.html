@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Tabla</title>
+</head>
+<body>
+    <h1>Ejemplo de tabla</h1>
+    <hr>
+    <h2>Ejemplo de tabla</h2>
+    <table>
+        <tr class="titabla">
+            <th class="titabla2">Ciudad</th>
+            <th>Temperatura</th>
+            <th>Fecha</th>
+            <th>Altitud</th>
+            <th>Poblacion</th>
+            <th class="titabla1">Ranking</th>
+        </tr>
+        <tr>
+            <td>Bogota</td>
+            <td>10</td>
+            <td>11/03/2023</td>
+            <td>2600</td>
+            <td>8 millones </td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Medellín</td>
+            <td>19</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>4 millones</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Envigado</td>
+            <td>20</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>150 mil</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Cali </td>
+            <td>25</td>
+            <td>11/03/2023</td>
+            <td>1400</td>
+            <td>2 millones</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td class="titabla4">Bello</td>
+            <td>23</td>
+            <td>11/03/2023</td>
+            <td>1600</td>
+            <td>100 mil</td>
+            <td class="titabla3">3</td>
+        </tr>
+    </table>
+    <hr>
+    <form action="guardar.php" method="post">
+        <h2>Datos Personales</h2>
+        <label for="nombres">Nombres: <input type="text" name="nombres"></label>
+        <label for="apellidos">Apellidos: <input type="text" name="apellidos"></label>
+        <label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="Digite un correo electrónico válido">
+        <label for="sexo">Sexo:
+            <br>
+            <input type="radio" name="sexo">Masculino <input type="radio" name="sexo">Femenino
+        </label> 
+        <br>
+        <input type="submit" name="Enviar" id="Enviar">
+
+    <h2>Ejercicio multimedia</h2>
+    <section id="multimedia"></section>
+        
+    </form>
+</body>
+</html>

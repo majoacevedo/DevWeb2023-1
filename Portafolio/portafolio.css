@@ -1,0 +1,247 @@
+
+* {
+    box-sizing: border-box;
+  }
+body
+{
+position: relative;
+width: 1440px;
+height: 1024px;
+background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+}
+header
+
+{
+
+    width: 634px;
+  height: 557px;
+  background: rgba(217,217,217,0.46000000834465027);
+  opacity: 1;
+  position: absolute;
+  top: 45px;
+  left: 50px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+
+h1
+{
+    position: absolute;
+width: 204px;
+height: 132px;
+left: 361px;
+top: 10px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+
+color: #532A55;
+
+
+
+}
+
+.logoIUE
+{
+    position: absolute;
+    width: 273px;
+    height: 130px;
+    left: 84px;
+    top: 72px;
+    border-radius: 60px;
+}
+
+.foto
+{
+  
+
+    position: absolute;
+width: 177px;
+height: 195px;
+left: 422px;
+top: 215px;
+ 
+}
+
+.titlemail{
+    
+    position: absolute;
+    width: 344px;
+    height: 37px;
+    left: 29px;
+    top: 215px;
+    
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #8786F4;
+    
+}
+
+
+.email
+{
+    
+position: absolute;
+width: 321px;
+height: 66px;
+left: 29px;
+top: 257px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+  }
+
+  .gitGub
+  {
+    
+    position: absolute;
+    width: 321px;
+    height: 42px;
+    left: 29px;
+    top: 405px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    
+    color: #8786F4;
+
+  }
+
+  .neocities
+  {
+    position: absolute;
+width: 360px;
+height: 39px;
+left: 29px;
+top: 445px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 39px;
+color: #8786F4;
+
+
+  }
+
+.presentacion
+{
+position: absolute;
+width: 634px;
+height: 278px;
+left: 50px;
+top: 703px;
+padding: 1em;
+
+background: rgba(217, 217, 217, 0.46);
+border-radius: 60px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: justify;
+padding-top: 0.5em;
+padding-bottom: 1.5em;
+
+color: #FFFFFF;
+}
+
+.diseños
+{
+    position: absolute;
+width: 312px;
+height: 321px;
+left: 720px;
+top: 155px;
+padding: 1em;
+
+background: rgba(217, 217, 217, 0.46);
+border-radius: 60px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #532A55;
+}
+
+.consultas
+{
+    position: absolute;
+width: 312px;
+height: 321px;
+left: 1068px;
+top: 155px;
+
+
+background: rgba(217, 217, 217, 0.46);
+border-radius: 60px;
+padding: 1em;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #532A55;
+}
+
+.talleres
+{
+    position: absolute;
+width: 312px;
+height: 321px;
+left: 720px;
+top: 610px;
+
+background: rgba(217, 217, 217, 0.46);
+border-radius: 60px;
+padding: 1em;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #532A55;
+
+}
+
+.retos
+{
+    position: absolute;
+width: 312px;
+height: 321px;
+left: 1068px;
+top: 610px;
+
+background: rgba(217, 217, 217, 0.46);
+border-radius: 60px;
+padding: 1em;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #532A55;
+}
+

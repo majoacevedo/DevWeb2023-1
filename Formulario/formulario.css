@@ -1,0 +1,64 @@
+
+body{
+    width: 1440px;
+    background-color: rosybrown;
+    text-align: center;
+    align-items: center;
+}
+table{
+    width: 750px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 20px;
+    border-style: groove;
+    border-color: chocolate;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titabla {
+    background-color: burlywood;
+    
+}
+
+.titabla1
+{
+    border-top-right-radius: 20px;
+}
+.titabla2{
+    border-top-left-radius: 20px;
+}
+td
+{
+    text-align: center;
+    border-style: solid;
+    border-color: burlywood;
+}
+th:hover
+{
+    background-color: bisque;
+    color: chocolate;
+}
+td:hover
+{
+    background: antiquewhite;
+    color: rosybrown;
+}
+.titabla3
+{
+    border-bottom-right-radius: 20px;
+}
+.titabla4{
+    border-bottom-left-radius: 20px;
+}
+form
+{
+    border-color: burlywood;
+    border-radius: 10px;
+    border-style: solid;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
